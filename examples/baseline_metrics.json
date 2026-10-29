@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-29T22:21:07.883159+00:00",
+  "dataset": "Keras IMDB, default dataset shuffle seed 113",
+  "training_examples": 20000,
+  "validation_examples": 5000,
+  "epochs_completed": 7,
+  "best_epoch": 4,
+  "validation": {
+    "accuracy": 0.8830000162124634,
+    "loss": 0.2965172529220581
+  },
+  "test": {
+    "accuracy": 0.8713200092315674,
+    "loss": 0.30547651648521423
+  },
+  "config": {
+    "num_words": 2000,
+    "hidden_units": [
+      512,
+      16
+    ],
+    "batch_size": 128,
+    "epochs": 7,
+    "learning_rate": 0.0001,
+    "patience": 10,
+    "validation_size": 5000,
+    "seed": 94610
+  },
+  "runtime": {
+    "python": "3.11.8",
+    "tensorflow": "2.20.0",
+    "numpy": "1.26.4"
+  },
+  "validation_indices_sha256": "8a175ebc9f541ec5d9737a2657623e0d6e96ffdcf524580d945be66b1b8db07d",
+  "training_type": "random initialization; no pretrained model or fine-tuning",
+  "test_examples": 25000,
+  "elapsed_seconds": 25.80097591700178
+}
