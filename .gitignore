@@ -1,0 +1,9 @@
+.venv/
+.idea/
+__pycache__/
+.pytest_cache/
+outputs/
+*.keras
+*.h5
+*.npz
+.DS_Store
